@@ -3,7 +3,7 @@ on:
   push:
 jobs:
   say-hello:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-20.04
     steps:
       - 
         name: Say Hello
