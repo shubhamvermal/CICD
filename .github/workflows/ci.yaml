@@ -1,0 +1,19 @@
+name: dummy-CI-project
+on:
+  push:
+jobs:
+  say-hello:
+    runs-on: ubantu-latest
+    steps:
+      - 
+        name: Say Hello
+        run: echo "hello world"
+      -
+        name: Do some other stuf
+        run: |
+          echo "Step One ..."
+          echo "Step Two ..."
+          echo "Step Three ..."
+      -
+        name: Finally
+        run: echo "Good Bye"
