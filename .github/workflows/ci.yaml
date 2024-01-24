@@ -17,3 +17,19 @@ jobs:
       -
         name: Finally
         run: echo "Good Bye"
+
+  say-world:
+    runs-on: ubuntu-20.04
+    # needs: say-hello
+    steps:
+      - 
+        name: Say 2 Hello
+        run: echo "hello 2 world"
+      -
+        name: Doing somethin other
+        run: |
+          echo "Step One ..."
+          echo "Step Two ..."
+      -
+        name: say good bye
+        run: echo "Good Bye"
